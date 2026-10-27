@@ -228,7 +228,7 @@ main{max-width:1320px;margin:auto;padding:var(--s6) var(--s6) 64px}
 .move-switch small{font-size:var(--fs-xs);margin-top:2px}
 .switch-track{width:40px;height:22px;flex:0 0 40px;border-radius:var(--r-pill);background:#a9b4c3;padding:3px}
 .switch-track>span{display:block;width:16px;height:16px;border-radius:50%;background:#fff;transition:transform .2s}
-.move-switch[aria-checked=true] .switch-track{background:var(--green)}
+.move-switch[aria-checked=true] .switch-track{background:var(--blue)}
 .move-switch[aria-checked=true] .switch-track>span{transform:translateX(18px)}
 
 /* Stat tiles: KPI, equation and capital tiles share one shape */
@@ -923,8 +923,7 @@ body.ex-on{overflow:hidden}
 .ex-ctl.is-sub+.ex-ctl:not(.is-sub),.ex-ctl.is-sub+.ex-choices{border-top:1px solid var(--line)}
 .ex-row{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);margin:0;font-weight:400}
 .ex-label{font-size:var(--fs-sm);font-weight:600;line-height:1.35;color:var(--ink)}
-.ex-ctl.is-changed .ex-label::after{content:"";display:inline-block;width:6px;height:6px;margin-left:6px;border-radius:50%;background:var(--blue);vertical-align:2px}
-.ex-box{flex:none;width:86px;height:30px;padding:0 8px;font:inherit;font-size:var(--fs-sm);font-variant-numeric:tabular-nums;text-align:right;color:var(--navy);background:#fff;border:1px solid var(--line-2);border-radius:var(--r-sm)}
+.ex-box{flex:none;width:100px;height:30px;padding:0 8px;font:inherit;font-size:var(--fs-sm);font-variant-numeric:tabular-nums;text-align:right;color:var(--navy);background:#fff;border:1px solid var(--line-2);border-radius:var(--r-sm)}
 .ex-box:focus{outline:none;border-color:var(--blue);box-shadow:var(--focus)}
 .ex-box.is-invalid{border-color:var(--red);background:var(--red-bg)}
 .ex-select{flex:0 1 210px;min-width:0;height:30px;font:inherit;font-size:var(--fs-xs);color:var(--navy);border:1px solid var(--line-2);border-radius:var(--r-sm);background:#fff;padding:0 6px}
@@ -965,7 +964,7 @@ body.ex-on{overflow:hidden}
 .ex-toggle .ex-switch{display:flex;align-items:center;gap:var(--s3);width:100%;min-height:0;height:auto;padding:0;font:inherit;text-align:left;color:var(--ink);background:none;border:0;cursor:pointer}
 .ex-switch strong,.ex-switch small{display:block}
 .ex-switch small{margin-top:1px;font-size:var(--fs-xs);color:var(--ink-2)}
-.ex-switch[aria-checked=true] .switch-track{background:var(--green)}
+.ex-switch[aria-checked=true] .switch-track{background:var(--blue)}
 .ex-switch[aria-checked=true] .switch-track>span{transform:translateX(18px)}
 .ex-switch:focus-visible{outline:none;box-shadow:var(--focus);border-radius:var(--r-sm)}
 .ex-toggle.is-muted .ex-switch{opacity:.62}
@@ -1020,7 +1019,53 @@ td.path-a,td.path-b{font-weight:650;text-align:left!important}
 .ex-kpi>span b.is-a{color:var(--path-a)}
 .ex-kpi>span b.is-b{color:var(--path-b)}
 @media(max-width:860px){.ex-kpi em,.ex-kpi .ex-more,.ex-kpi .ex-who{display:none}}
-</style><script type="application/json" id="rentMarketData">{"source":"Immobiliare.it · prezzi richiesti negli annunci","period":"settembre 2026","areas":[{"id":"italia-italia","group":"italia","name":"Italia","sale":2217.0,"rent":14.9,"yield":8.065},{"id":"citta-l-aquila","group":"citta","name":"L'Aquila","sale":1528.0,"rent":8.1,"yield":6.3613},{"id":"citta-potenza","group":"citta","name":"Potenza","sale":1280.0,"rent":6.8,"yield":6.375},{"id":"citta-reggio-calabria","group":"citta","name":"Reggio Calabria","sale":852.0,"rent":6.54,"yield":9.2113},{"id":"citta-napoli","group":"citta","name":"Napoli","sale":3025.0,"rent":15.33,"yield":6.0813},{"id":"citta-bologna","group":"citta","name":"Bologna","sale":3841.0,"rent":16.51,"yield":5.158},{"id":"citta-trieste","group":"citta","name":"Trieste","sale":2708.0,"rent":12.45,"yield":5.517},{"id":"citta-roma","group":"citta","name":"Roma","sale":3875.0,"rent":19.13,"yield":5.9241},{"id":"citta-genova","group":"citta","name":"Genova","sale":1879.0,"rent":11.15,"yield":7.1208},{"id":"citta-milano","group":"citta","name":"Milano","sale":5665.0,"rent":22.32,"yield":4.728},{"id":"citta-ancona","group":"citta","name":"Ancona","sale":1818.0,"rent":9.78,"yield":6.4554},{"id":"citta-campobasso","group":"citta","name":"Campobasso","sale":1059.0,"rent":6.84,"yield":7.7507},{"id":"citta-torino","group":"citta","name":"Torino","sale":2292.0,"rent":12.99,"yield":6.801},{"id":"citta-bari","group":"citta","name":"Bari","sale":2344.0,"rent":12.97,"yield":6.6399},{"id":"citta-cagliari","group":"citta","name":"Cagliari","sale":2706.0,"rent":13.94,"yield":6.1818},{"id":"citta-palermo","group":"citta","name":"Palermo","sale":1592.0,"rent":9.7,"yield":7.3116},{"id":"citta-firenze","group":"citta","name":"Firenze","sale":4779.0,"rent":21.75,"yield":5.4614},{"id":"citta-trento","group":"citta","name":"Trento","sale":3502.0,"rent":13.08,"yield":4.482},{"id":"citta-perugia","group":"citta","name":"Perugia","sale":1405.0,"rent":9.87,"yield":8.4299},{"id":"citta-aosta","group":"citta","name":"Aosta","sale":2230.0,"rent":10.97,"yield":5.9031},{"id":"citta-venezia","group":"citta","name":"Venezia","sale":3423.0,"rent":15.51,"yield":5.4373},{"id":"roma-centro-storico","group":"roma","name":"Centro Storico","sale":8776.0,"rent":28.82,"yield":3.9407},{"id":"roma-prati-borgo-mazzini-delle-vittorie-degli-eroi","group":"roma","name":"Prati, Borgo, Mazzini, Delle Vittorie, Degli Eroi","sale":6289.0,"rent":23.96,"yield":4.5718},{"id":"roma-parioli-flaminio","group":"roma","name":"Parioli, Flaminio","sale":6660.0,"rent":23.5,"yield":4.2342},{"id":"roma-salario-trieste","group":"roma","name":"Salario, Trieste","sale":6000.0,"rent":21.83,"yield":4.366},{"id":"roma-testaccio-trastevere","group":"roma","name":"Testaccio, Trastevere","sale":6658.0,"rent":26.7,"yield":4.8123},{"id":"roma-corso-francia-vigna-clara-fleming-ponte-milvio","group":"roma","name":"Corso Francia, Vigna Clara, Fleming, Ponte Milvio","sale":5022.0,"rent":19.21,"yield":4.5902},{"id":"roma-termini-repubblica","group":"roma","name":"Termini, Repubblica","sale":5622.0,"rent":24.24,"yield":5.174},{"id":"roma-re-di-roma-san-giovanni","group":"roma","name":"Re di Roma, San Giovanni","sale":4948.0,"rent":19.97,"yield":4.8432},{"id":"roma-aventino-san-saba-caracalla","group":"roma","name":"Aventino, San Saba, Caracalla","sale":6473.0,"rent":25.83,"yield":4.7885},{"id":"roma-bologna-policlinico","group":"roma","name":"Bologna, Policlinico","sale":5731.0,"rent":21.65,"yield":4.5332},{"id":"roma-eur-torrino-tintoretto","group":"roma","name":"Eur, Torrino, Tintoretto","sale":4137.0,"rent":16.7,"yield":4.8441},{"id":"roma-pigneto-san-lorenzo-casal-bertone","group":"roma","name":"Pigneto, San Lorenzo, Casal Bertone","sale":3961.0,"rent":21.53,"yield":6.5226},{"id":"roma-appio-latino-colli-albani","group":"roma","name":"Appio Latino, Colli Albani","sale":4376.0,"rent":17.73,"yield":4.862},{"id":"roma-garbatella-navigatori-ostiense","group":"roma","name":"Garbatella, Navigatori, Ostiense","sale":4205.0,"rent":20.14,"yield":5.7474},{"id":"roma-marconi-san-paolo","group":"roma","name":"Marconi, San Paolo","sale":3832.0,"rent":17.68,"yield":5.5365},{"id":"roma-gregorio-vii-baldo-degli-ubaldi","group":"roma","name":"Gregorio VII, Baldo degli Ubaldi","sale":4875.0,"rent":20.86,"yield":5.1348},{"id":"roma-camilluccia-cortina-d-ampezzo","group":"roma","name":"Camilluccia, Cortina d'Ampezzo","sale":4623.0,"rent":19.82,"yield":5.1447},{"id":"roma-cassia-san-godenzo-grottarossa","group":"roma","name":"Cassia, San Godenzo, Grottarossa","sale":3336.0,"rent":16.24,"yield":5.8417},{"id":"roma-talenti-monte-sacro-nuovo-salario","group":"roma","name":"Talenti, Monte Sacro, Nuovo Salario","sale":3840.0,"rent":15.69,"yield":4.9031},{"id":"roma-porta-di-roma-casal-boccone","group":"roma","name":"Porta di Roma, Casal Boccone","sale":3498.0,"rent":15.31,"yield":5.2521},{"id":"roma-monti-tiburtini-pietralata","group":"roma","name":"Monti Tiburtini, Pietralata","sale":3472.0,"rent":16.92,"yield":5.8479},{"id":"roma-centocelle-tor-de-schiavi","group":"roma","name":"Centocelle, Tor de' Schiavi","sale":3088.0,"rent":15.7,"yield":6.101},{"id":"roma-trionfale-monte-mario-ottavia","group":"roma","name":"Trionfale, Monte Mario, Ottavia","sale":3084.0,"rent":15.28,"yield":5.9455},{"id":"roma-alessandrino-tor-sapienza-torre-maura","group":"roma","name":"Alessandrino, Tor Sapienza, Torre Maura","sale":2710.0,"rent":13.25,"yield":5.8672},{"id":"roma-appia-pignatelli-ardeatino-montagnola","group":"roma","name":"Appia Pignatelli, Ardeatino, Montagnola","sale":4071.0,"rent":15.97,"yield":4.7074},{"id":"roma-cecchignola-fonte-meravigliosa","group":"roma","name":"Cecchignola, Fonte Meravigliosa","sale":3636.0,"rent":15.08,"yield":4.9769},{"id":"roma-magliana-trullo-parco-de-medici","group":"roma","name":"Magliana, Trullo, Parco de' Medici","sale":2913.0,"rent":14.23,"yield":5.862},{"id":"roma-casetta-mattei-pisana-bravetta","group":"roma","name":"Casetta Mattei, Pisana, Bravetta","sale":3462.0,"rent":16.34,"yield":5.6638},{"id":"roma-aurelio-boccea","group":"roma","name":"Aurelio, Boccea","sale":3652.0,"rent":16.7,"yield":5.4874},{"id":"roma-battistini-torrevecchia","group":"roma","name":"Battistini, Torrevecchia","sale":3343.0,"rent":15.64,"yield":5.6141},{"id":"roma-olgiata-giustiniana","group":"roma","name":"Olgiata, Giustiniana","sale":2467.0,"rent":13.44,"yield":6.5375},{"id":"roma-labaro-prima-porta-valle-muricana","group":"roma","name":"Labaro, Prima Porta, Valle Muricana","sale":2320.0,"rent":13.4,"yield":6.931},{"id":"roma-bufalotta-casal-monastero-settebagni","group":"roma","name":"Bufalotta, Casal Monastero, Settebagni","sale":2681.0,"rent":12.25,"yield":5.483},{"id":"roma-ponte-di-nona-torre-angela","group":"roma","name":"Ponte di Nona, Torre Angela","sale":2257.0,"rent":12.08,"yield":6.4227},{"id":"roma-anagnina-romanina-tor-vergata","group":"roma","name":"Anagnina, Romanina, Tor Vergata","sale":2661.0,"rent":12.88,"yield":5.8083},{"id":"roma-trigoria-castel-romano","group":"roma","name":"Trigoria, Castel Romano","sale":2194.0,"rent":13.8,"yield":7.5479},{"id":"roma-acilia-casal-bernocchi-centro-giano-dragona-malafede-vitinia","group":"roma","name":"Acilia, Casal Bernocchi, Centro Giano, Dragona, Malafede, Vitinia","sale":2428.0,"rent":12.4,"yield":6.1285},{"id":"roma-ponte-mammolo-san-basilio-tor-cervara","group":"roma","name":"Ponte Mammolo, San Basilio, Tor Cervara","sale":2852.0,"rent":13.84,"yield":5.8233},{"id":"roma-lido-di-ostia-ostia-antica-castel-fusano","group":"roma","name":"Lido di Ostia, Ostia Antica, Castel Fusano","sale":2580.0,"rent":13.19,"yield":6.1349},{"id":"roma-casal-lumbroso-massimina-ponte-galeria","group":"roma","name":"Casal Lumbroso, Massimina, Ponte Galeria","sale":2381.0,"rent":12.69,"yield":6.3956},{"id":"roma-casalotti-casal-selce-maglianella","group":"roma","name":"Casalotti, Casal Selce, Maglianella","sale":2631.0,"rent":12.97,"yield":5.9156},{"id":"roma-balduina-medaglie-d-oro","group":"roma","name":"Balduina, Medaglie d'Oro","sale":5015.0,"rent":19.68,"yield":4.7091},{"id":"roma-cinecitta-quadraro","group":"roma","name":"Cinecittà, Quadraro","sale":3289.0,"rent":15.9,"yield":5.8012},{"id":"roma-monteverde-gianicolense-colli-portuensi-casaletto","group":"roma","name":"Monteverde, Gianicolense, Colli Portuensi, Casaletto","sale":4479.0,"rent":18.45,"yield":4.9431},{"id":"roma-lunghezza-castelverde","group":"roma","name":"Lunghezza, Castelverde","sale":1931.0,"rent":10.84,"yield":6.7364},{"id":"roma-borghesiana-finocchio-rocca-cencia","group":"roma","name":"Borghesiana, Finocchio, Rocca Cencia","sale":2118.0,"rent":11.74,"yield":6.6516},{"id":"roma-mezzocammino-spinaceto-tor-de-cenci","group":"roma","name":"Mezzocammino, Spinaceto, Tor de' Cenci","sale":3186.0,"rent":14.3,"yield":5.3861},{"id":"roma-axa-casal-palocco-infernetto","group":"roma","name":"Axa, Casal Palocco, Infernetto","sale":2648.0,"rent":13.61,"yield":6.1677},{"id":"roma-appio-claudio-capannelle","group":"roma","name":"Appio Claudio, Capannelle","sale":3705.0,"rent":15.04,"yield":4.8713},{"id":"roma-castel-di-leva-vallerano-fonte-laurentina","group":"roma","name":"Castel di Leva, Vallerano, Fonte Laurentina","sale":3339.0,"rent":13.9,"yield":4.9955},{"id":"roma-portuense-villa-bonelli","group":"roma","name":"Portuense, Villa Bonelli","sale":3575.0,"rent":14.58,"yield":4.894},{"id":"roma-colli-portuensi-casaletto","group":"roma","name":"Colli Portuensi - Casaletto","sale":4318.0,"rent":15.93,"yield":4.427},{"id":"roma-monteverde-nuovo","group":"roma","name":"Monteverde Nuovo","sale":4083.0,"rent":19.89,"yield":5.8457},{"id":"roma-monteverde-vecchio","group":"roma","name":"Monteverde Vecchio","sale":5231.0,"rent":18.7,"yield":4.2898}],"registered":{"source":"Agenzia delle Entrate–ABI, Rapporto Immobiliare 2026, tabelle 52 e 54","year":2025,"rows":[["Italia",6.79,14.9],["Roma",13.52,19.13],["Milano",17.17,22.32]]}}</script><script type="application/json" id="savedScenario">{"values":{"price":"180000","principal":"180000","principalPct":"100","yearsPreset":"25","years":"25","tan":"3.6","rateMode":"curve","cmpDeduction":"yes","irs1":"3.25","irs5":"3.48","irs10":"3.55","irs15":"3.61","irs20":"3.59","irs25":"3.52","irs30":"3.43","irs40":"3.26","income":"2500","other":"0","birthDay":"1","birthMonth":"1","birthYear":"","start":"2026-11-01","appraisal":"180000","first":"yes","seller":"private","cadastral":"90000","cadastralPct":"50","notary":"2500","agency":"6588.00","fees":"1200","insurance":"400","extra":"0","annualGrowth":"0.87","ipabLocation":"ITE43","cmpWealth":"13038","capitalExtra":"0","cmpRentFees":"1303.8","cmpRentFeesPct":"10","cmpDeposit":"3","cmpRent":"910.8","cmpRentPct":"100","growth":"0.87","cmpRentGrowth":"0.87","cmpRentStep":"5","cmpMaint":"1","cmpReturn":"8.4","cmpBand":"2","cmpDeRisk":"yes","cmpDefensiveYears":"5","cmpDefensiveRate":"4","cmpTax":"26","cmpStamp":"yes","cmpNetSale":"yes","cmpSalePct":"3.05","cmpSaleFixed":"0","pacEnabled":"no","pacYears":"7","moveEnabled":"no","cmpMoveYear":"5","cmpMoveRule":"budget","cmpMoveBudget":"1005.6","cmpPriceA":"187967.43","cmpPriceB":"187967.43","cmpTanA":"3.6","cmpTanB":"3.6","cmpYearsA":"25","cmpDurationRule":"initial","cmpYearsB":"25","cmpLtvA":"100","cmpLtvB":"100","cmpFuturePct":"6.993333","cmpFutureFixed":"0","cmpLoanTax":"0.25","cmpUnits":"real","cmpInflation":"2"},"modes":{"tan":"BCE · 2026-08","agency":"Automatico · 3% + IVA 22%","appraisal":"Stima · uguale al prezzo","notary":"Stima · 2.500 €","fees":"Stima · 1.200 €","insurance":"Stima · 400 €","growth":"IPAB storico · Roma · 2015–2025"},"comparisonLinks":{"cmpWealth":true,"cmpRent":true,"cmpPriceA":true,"cmpTanA":true,"cmpYearsA":true,"cmpFuturePct":true,"cmpLoanTax":true,"cmpRentFees":true,"Price":true,"Tan":true,"Years":true,"Ltv":true,"rentGrowth":true,"rentInflation":false,"cmpMoveBudget":true,"cmpLtvA":true},"curveSource":"Eurirs del 13/10/2026 · dati incorporati, senza aggiornamento automatico.","lastApi":{"value":3.6,"period":"2026-08"}}</script></head><body style="--head-h: 368px;"><header class="top"><div class="tophead"><div><div class="brand">Atlante / Finanza personale</div><h1>Mutuo e affitto</h1><p class="subtitle">Configura il mutuo · confronta le alternative · esplora il patrimonio</p></div><div class="download-box"><div class="tag">ITALIA · VERSIONE 6.7</div><button class="btn secondary download-button" id="downloadHtml" type="button">↓ Scarica HTML</button><p class="download-note">Salva una copia del simulatore con tutti i dati inseriti, da riaprire e modificare.</p></div></div></header><nav class="persistent-nav" aria-label="Sezioni principali"><nav class="tabs"><button class="tab active" data-page="dashboard" type="button">01 · Il mutuo</button><button class="tab" data-page="compare" type="button">02 · Comprare o affittare</button><button class="nav-top" id="navTop" type="button" title="Torna all’inizio della pagina" hidden=""><span aria-hidden="true">↑</span><span class="nav-top-label"> Inizio pagina</span></button></nav></nav><main><nav aria-label="Approfondimenti sul mutuo" class="mortgage-navigation" id="mortgageSubnav"><button class="subtab nav-primary active" data-page="dashboard"><span>Simulatore</span><small>Imposta il mutuo</small></button><div class="nav-secondary"><span class="nav-caption">Approfondimenti</span><div><button class="subtab" data-page="annual">Andamento</button><button class="subtab" data-page="monthly">Rate e formule</button></div></div></nav><p class="legend-source"><b>Fonte o stima applicata</b><em>Valore manuale</em></p><div class="invalid-banner" id="inputError" role="alert" hidden="">Correggi i dati: prezzo e mutuo positivi, mutuo non superiore al prezzo, durata intera 1–40 anni, TAN 0–30%, crescita −15–25%, altri importi non negativi. Con TAN dipendente dalla durata, controlla anche i valori della curva e che i TAN stimati siano tra 0 e 30%. I risultati sono sospesi.</div>
+/* 6.8: explorer in boxes, ↺ inside the number box, history, break-even rent; chart end names */
+.t-end-name{font-size:10.5px;font-weight:600}
+.ex-title-row{display:flex;align-items:center;justify-content:space-between;gap:var(--s3)}
+.ex-history{display:flex;gap:4px}
+.ex-history button{width:30px;height:28px;min-height:0;padding:0;font:inherit;font-size:16px;line-height:1;color:var(--navy);background:#fff;border:1px solid var(--line-2);border-radius:var(--r-sm);cursor:pointer}
+.ex-history button:hover:not(:disabled){border-color:var(--blue)}
+.ex-history button:disabled{opacity:.35;cursor:default}
+.ex-scroll{background:var(--bg);padding:0 var(--s4) var(--s6)}
+.ex-card{background:#fff;border:1px solid var(--line);border-radius:var(--r-md);box-shadow:0 1px 2px #182b4912,0 3px 10px #182b490d;padding:2px var(--s3);margin-top:var(--s3)}
+.ex-card .ex-ctl{padding:var(--s2) 0;border-bottom:0}
+.ex-card .ex-ctl.is-sub{margin-left:0;padding-left:0;border-left:0}
+.ex-card>*+*{border-top:1px solid var(--line)!important}
+.ex-card>.ex-be-row,.ex-card>.ex-growth-row{border-top:0!important}
+.ex-card.is-rent{position:sticky;top:0;z-index:4;box-shadow:0 2px 4px #182b4914,0 8px 18px #182b4914}
+.ex-card.is-muted{background:#fbfcfd}
+.ex-be-row{display:flex;flex-wrap:wrap;gap:6px;padding:0 0 var(--s2)}
+.ex-chip.is-be{border-color:var(--line-2);background:var(--surface-2);color:var(--navy)}
+.ex-chip.is-be[aria-pressed=true]{background:var(--sky);border-color:var(--blue);font-weight:700}
+.ex-chip:disabled{opacity:.5;cursor:default}
+.ex-mark.is-sheet{background:#d9963f}
+.ex-mark.is-be{background:var(--navy)}
+.ex-field{position:relative;flex:none;display:inline-flex}
+.ex-undo{position:absolute;left:3px;top:50%;z-index:1;transform:translateY(-50%);width:20px;height:20px;min-height:0;padding:0;font:inherit;font-size:14px;line-height:1;color:#9a6215;background:transparent;border:0;border-radius:4px;cursor:pointer}
+.ex-undo:hover{background:#fbe3c2}
+.ex-undo[hidden]{display:none}
+.ex-box.is-changed,.ex-select.is-changed{background:#fff6ea;border-color:#ecc58e}
+.ex-box.is-changed{padding-left:24px}
+.ex-field.is-select .ex-select{flex:none;width:200px}
+.ex-field.is-select .ex-select.is-changed{padding-left:24px}
+.ex-ctl.is-box .ex-sub{margin-top:2px}
+.ex-growth-row{display:flex;align-items:center;gap:var(--s3);padding:2px 0}
+.ex-select.is-wide{flex:1 1 auto;width:auto;min-width:0}
+.ex-select.is-alt{background:var(--alt-bg);border-color:var(--alt-line);color:var(--alt-ink)}
+.ex-link{position:relative;flex:none;width:100px;min-height:0;height:26px;padding:0;font:inherit;font-size:var(--fs-xs);color:var(--ink-2);background:#fff;border:1px dashed var(--line-2);border-radius:var(--r-pill);cursor:pointer}
+.ex-link[aria-pressed=true]{color:var(--navy);font-weight:700;background:var(--sky);border:1px solid var(--blue)}
+.ex-link::before,.ex-link::after{content:"";position:absolute;left:50%;height:7px;border-left:1px solid var(--line-2)}
+.ex-link::before{bottom:100%}
+.ex-link::after{top:100%}
+.ex-link[aria-pressed=true]::before,.ex-link[aria-pressed=true]::after{border-color:var(--blue)}
+.ex-adv{margin-top:var(--s4)}
+.ex-adv>summary{padding:10px var(--s3);font-size:var(--fs-sm);font-weight:700;color:#fff;background:var(--navy);border:0;border-radius:var(--r-md);list-style:none;cursor:pointer}
+.ex-adv>summary:hover{color:#fff;background:var(--navy-2)}
+.ex-adv[open]>summary{border-radius:var(--r-md) var(--r-md) 0 0}
+.ex-adv-body{padding:2px var(--s2) var(--s3);background:#d9e2ed;border-radius:0 0 var(--r-md) var(--r-md)}
+.ex-adv-body .ex-card{margin-top:var(--s2)}
+@media(max-width:860px),(max-height:680px){.ex-card.is-rent{position:static}}
+</style><script type="application/json" id="rentMarketData">{"source":"Immobiliare.it · prezzi richiesti negli annunci","period":"settembre 2026","areas":[{"id":"italia-italia","group":"italia","name":"Italia","sale":2217.0,"rent":14.9,"yield":8.065},{"id":"citta-l-aquila","group":"citta","name":"L'Aquila","sale":1528.0,"rent":8.1,"yield":6.3613},{"id":"citta-potenza","group":"citta","name":"Potenza","sale":1280.0,"rent":6.8,"yield":6.375},{"id":"citta-reggio-calabria","group":"citta","name":"Reggio Calabria","sale":852.0,"rent":6.54,"yield":9.2113},{"id":"citta-napoli","group":"citta","name":"Napoli","sale":3025.0,"rent":15.33,"yield":6.0813},{"id":"citta-bologna","group":"citta","name":"Bologna","sale":3841.0,"rent":16.51,"yield":5.158},{"id":"citta-trieste","group":"citta","name":"Trieste","sale":2708.0,"rent":12.45,"yield":5.517},{"id":"citta-roma","group":"citta","name":"Roma","sale":3875.0,"rent":19.13,"yield":5.9241},{"id":"citta-genova","group":"citta","name":"Genova","sale":1879.0,"rent":11.15,"yield":7.1208},{"id":"citta-milano","group":"citta","name":"Milano","sale":5665.0,"rent":22.32,"yield":4.728},{"id":"citta-ancona","group":"citta","name":"Ancona","sale":1818.0,"rent":9.78,"yield":6.4554},{"id":"citta-campobasso","group":"citta","name":"Campobasso","sale":1059.0,"rent":6.84,"yield":7.7507},{"id":"citta-torino","group":"citta","name":"Torino","sale":2292.0,"rent":12.99,"yield":6.801},{"id":"citta-bari","group":"citta","name":"Bari","sale":2344.0,"rent":12.97,"yield":6.6399},{"id":"citta-cagliari","group":"citta","name":"Cagliari","sale":2706.0,"rent":13.94,"yield":6.1818},{"id":"citta-palermo","group":"citta","name":"Palermo","sale":1592.0,"rent":9.7,"yield":7.3116},{"id":"citta-firenze","group":"citta","name":"Firenze","sale":4779.0,"rent":21.75,"yield":5.4614},{"id":"citta-trento","group":"citta","name":"Trento","sale":3502.0,"rent":13.08,"yield":4.482},{"id":"citta-perugia","group":"citta","name":"Perugia","sale":1405.0,"rent":9.87,"yield":8.4299},{"id":"citta-aosta","group":"citta","name":"Aosta","sale":2230.0,"rent":10.97,"yield":5.9031},{"id":"citta-venezia","group":"citta","name":"Venezia","sale":3423.0,"rent":15.51,"yield":5.4373},{"id":"roma-centro-storico","group":"roma","name":"Centro Storico","sale":8776.0,"rent":28.82,"yield":3.9407},{"id":"roma-prati-borgo-mazzini-delle-vittorie-degli-eroi","group":"roma","name":"Prati, Borgo, Mazzini, Delle Vittorie, Degli Eroi","sale":6289.0,"rent":23.96,"yield":4.5718},{"id":"roma-parioli-flaminio","group":"roma","name":"Parioli, Flaminio","sale":6660.0,"rent":23.5,"yield":4.2342},{"id":"roma-salario-trieste","group":"roma","name":"Salario, Trieste","sale":6000.0,"rent":21.83,"yield":4.366},{"id":"roma-testaccio-trastevere","group":"roma","name":"Testaccio, Trastevere","sale":6658.0,"rent":26.7,"yield":4.8123},{"id":"roma-corso-francia-vigna-clara-fleming-ponte-milvio","group":"roma","name":"Corso Francia, Vigna Clara, Fleming, Ponte Milvio","sale":5022.0,"rent":19.21,"yield":4.5902},{"id":"roma-termini-repubblica","group":"roma","name":"Termini, Repubblica","sale":5622.0,"rent":24.24,"yield":5.174},{"id":"roma-re-di-roma-san-giovanni","group":"roma","name":"Re di Roma, San Giovanni","sale":4948.0,"rent":19.97,"yield":4.8432},{"id":"roma-aventino-san-saba-caracalla","group":"roma","name":"Aventino, San Saba, Caracalla","sale":6473.0,"rent":25.83,"yield":4.7885},{"id":"roma-bologna-policlinico","group":"roma","name":"Bologna, Policlinico","sale":5731.0,"rent":21.65,"yield":4.5332},{"id":"roma-eur-torrino-tintoretto","group":"roma","name":"Eur, Torrino, Tintoretto","sale":4137.0,"rent":16.7,"yield":4.8441},{"id":"roma-pigneto-san-lorenzo-casal-bertone","group":"roma","name":"Pigneto, San Lorenzo, Casal Bertone","sale":3961.0,"rent":21.53,"yield":6.5226},{"id":"roma-appio-latino-colli-albani","group":"roma","name":"Appio Latino, Colli Albani","sale":4376.0,"rent":17.73,"yield":4.862},{"id":"roma-garbatella-navigatori-ostiense","group":"roma","name":"Garbatella, Navigatori, Ostiense","sale":4205.0,"rent":20.14,"yield":5.7474},{"id":"roma-marconi-san-paolo","group":"roma","name":"Marconi, San Paolo","sale":3832.0,"rent":17.68,"yield":5.5365},{"id":"roma-gregorio-vii-baldo-degli-ubaldi","group":"roma","name":"Gregorio VII, Baldo degli Ubaldi","sale":4875.0,"rent":20.86,"yield":5.1348},{"id":"roma-camilluccia-cortina-d-ampezzo","group":"roma","name":"Camilluccia, Cortina d'Ampezzo","sale":4623.0,"rent":19.82,"yield":5.1447},{"id":"roma-cassia-san-godenzo-grottarossa","group":"roma","name":"Cassia, San Godenzo, Grottarossa","sale":3336.0,"rent":16.24,"yield":5.8417},{"id":"roma-talenti-monte-sacro-nuovo-salario","group":"roma","name":"Talenti, Monte Sacro, Nuovo Salario","sale":3840.0,"rent":15.69,"yield":4.9031},{"id":"roma-porta-di-roma-casal-boccone","group":"roma","name":"Porta di Roma, Casal Boccone","sale":3498.0,"rent":15.31,"yield":5.2521},{"id":"roma-monti-tiburtini-pietralata","group":"roma","name":"Monti Tiburtini, Pietralata","sale":3472.0,"rent":16.92,"yield":5.8479},{"id":"roma-centocelle-tor-de-schiavi","group":"roma","name":"Centocelle, Tor de' Schiavi","sale":3088.0,"rent":15.7,"yield":6.101},{"id":"roma-trionfale-monte-mario-ottavia","group":"roma","name":"Trionfale, Monte Mario, Ottavia","sale":3084.0,"rent":15.28,"yield":5.9455},{"id":"roma-alessandrino-tor-sapienza-torre-maura","group":"roma","name":"Alessandrino, Tor Sapienza, Torre Maura","sale":2710.0,"rent":13.25,"yield":5.8672},{"id":"roma-appia-pignatelli-ardeatino-montagnola","group":"roma","name":"Appia Pignatelli, Ardeatino, Montagnola","sale":4071.0,"rent":15.97,"yield":4.7074},{"id":"roma-cecchignola-fonte-meravigliosa","group":"roma","name":"Cecchignola, Fonte Meravigliosa","sale":3636.0,"rent":15.08,"yield":4.9769},{"id":"roma-magliana-trullo-parco-de-medici","group":"roma","name":"Magliana, Trullo, Parco de' Medici","sale":2913.0,"rent":14.23,"yield":5.862},{"id":"roma-casetta-mattei-pisana-bravetta","group":"roma","name":"Casetta Mattei, Pisana, Bravetta","sale":3462.0,"rent":16.34,"yield":5.6638},{"id":"roma-aurelio-boccea","group":"roma","name":"Aurelio, Boccea","sale":3652.0,"rent":16.7,"yield":5.4874},{"id":"roma-battistini-torrevecchia","group":"roma","name":"Battistini, Torrevecchia","sale":3343.0,"rent":15.64,"yield":5.6141},{"id":"roma-olgiata-giustiniana","group":"roma","name":"Olgiata, Giustiniana","sale":2467.0,"rent":13.44,"yield":6.5375},{"id":"roma-labaro-prima-porta-valle-muricana","group":"roma","name":"Labaro, Prima Porta, Valle Muricana","sale":2320.0,"rent":13.4,"yield":6.931},{"id":"roma-bufalotta-casal-monastero-settebagni","group":"roma","name":"Bufalotta, Casal Monastero, Settebagni","sale":2681.0,"rent":12.25,"yield":5.483},{"id":"roma-ponte-di-nona-torre-angela","group":"roma","name":"Ponte di Nona, Torre Angela","sale":2257.0,"rent":12.08,"yield":6.4227},{"id":"roma-anagnina-romanina-tor-vergata","group":"roma","name":"Anagnina, Romanina, Tor Vergata","sale":2661.0,"rent":12.88,"yield":5.8083},{"id":"roma-trigoria-castel-romano","group":"roma","name":"Trigoria, Castel Romano","sale":2194.0,"rent":13.8,"yield":7.5479},{"id":"roma-acilia-casal-bernocchi-centro-giano-dragona-malafede-vitinia","group":"roma","name":"Acilia, Casal Bernocchi, Centro Giano, Dragona, Malafede, Vitinia","sale":2428.0,"rent":12.4,"yield":6.1285},{"id":"roma-ponte-mammolo-san-basilio-tor-cervara","group":"roma","name":"Ponte Mammolo, San Basilio, Tor Cervara","sale":2852.0,"rent":13.84,"yield":5.8233},{"id":"roma-lido-di-ostia-ostia-antica-castel-fusano","group":"roma","name":"Lido di Ostia, Ostia Antica, Castel Fusano","sale":2580.0,"rent":13.19,"yield":6.1349},{"id":"roma-casal-lumbroso-massimina-ponte-galeria","group":"roma","name":"Casal Lumbroso, Massimina, Ponte Galeria","sale":2381.0,"rent":12.69,"yield":6.3956},{"id":"roma-casalotti-casal-selce-maglianella","group":"roma","name":"Casalotti, Casal Selce, Maglianella","sale":2631.0,"rent":12.97,"yield":5.9156},{"id":"roma-balduina-medaglie-d-oro","group":"roma","name":"Balduina, Medaglie d'Oro","sale":5015.0,"rent":19.68,"yield":4.7091},{"id":"roma-cinecitta-quadraro","group":"roma","name":"Cinecittà, Quadraro","sale":3289.0,"rent":15.9,"yield":5.8012},{"id":"roma-monteverde-gianicolense-colli-portuensi-casaletto","group":"roma","name":"Monteverde, Gianicolense, Colli Portuensi, Casaletto","sale":4479.0,"rent":18.45,"yield":4.9431},{"id":"roma-lunghezza-castelverde","group":"roma","name":"Lunghezza, Castelverde","sale":1931.0,"rent":10.84,"yield":6.7364},{"id":"roma-borghesiana-finocchio-rocca-cencia","group":"roma","name":"Borghesiana, Finocchio, Rocca Cencia","sale":2118.0,"rent":11.74,"yield":6.6516},{"id":"roma-mezzocammino-spinaceto-tor-de-cenci","group":"roma","name":"Mezzocammino, Spinaceto, Tor de' Cenci","sale":3186.0,"rent":14.3,"yield":5.3861},{"id":"roma-axa-casal-palocco-infernetto","group":"roma","name":"Axa, Casal Palocco, Infernetto","sale":2648.0,"rent":13.61,"yield":6.1677},{"id":"roma-appio-claudio-capannelle","group":"roma","name":"Appio Claudio, Capannelle","sale":3705.0,"rent":15.04,"yield":4.8713},{"id":"roma-castel-di-leva-vallerano-fonte-laurentina","group":"roma","name":"Castel di Leva, Vallerano, Fonte Laurentina","sale":3339.0,"rent":13.9,"yield":4.9955},{"id":"roma-portuense-villa-bonelli","group":"roma","name":"Portuense, Villa Bonelli","sale":3575.0,"rent":14.58,"yield":4.894},{"id":"roma-colli-portuensi-casaletto","group":"roma","name":"Colli Portuensi - Casaletto","sale":4318.0,"rent":15.93,"yield":4.427},{"id":"roma-monteverde-nuovo","group":"roma","name":"Monteverde Nuovo","sale":4083.0,"rent":19.89,"yield":5.8457},{"id":"roma-monteverde-vecchio","group":"roma","name":"Monteverde Vecchio","sale":5231.0,"rent":18.7,"yield":4.2898}],"registered":{"source":"Agenzia delle Entrate–ABI, Rapporto Immobiliare 2026, tabelle 52 e 54","year":2025,"rows":[["Italia",6.79,14.9],["Roma",13.52,19.13],["Milano",17.17,22.32]]}}</script><script type="application/json" id="savedScenario">{"values":{"price":"180000","principal":"180000","principalPct":"100","yearsPreset":"25","years":"25","tan":"3.6","rateMode":"curve","cmpDeduction":"yes","irs1":"3.25","irs5":"3.48","irs10":"3.55","irs15":"3.61","irs20":"3.59","irs25":"3.52","irs30":"3.43","irs40":"3.26","income":"2500","other":"0","birthDay":"1","birthMonth":"1","birthYear":"","start":"2026-11-01","appraisal":"180000","first":"yes","seller":"private","cadastral":"90000","cadastralPct":"50","notary":"2500","agency":"6588.00","fees":"1200","insurance":"400","extra":"0","annualGrowth":"0.87","ipabLocation":"ITE43","cmpWealth":"13038","capitalExtra":"0","cmpRentFees":"1303.8","cmpRentFeesPct":"10","cmpDeposit":"3","cmpRent":"910.8","cmpRentPct":"100","growth":"0.87","cmpRentGrowth":"0.87","cmpRentStep":"5","cmpMaint":"1","cmpReturn":"8.4","cmpBand":"2","cmpDeRisk":"yes","cmpDefensiveYears":"5","cmpDefensiveRate":"4","cmpTax":"26","cmpStamp":"yes","cmpNetSale":"yes","cmpSalePct":"3.05","cmpSaleFixed":"0","pacEnabled":"no","pacYears":"7","moveEnabled":"no","cmpMoveYear":"5","cmpMoveRule":"budget","cmpMoveBudget":"1005.6","cmpPriceA":"187967.43","cmpPriceB":"187967.43","cmpTanA":"3.6","cmpTanB":"3.6","cmpYearsA":"25","cmpDurationRule":"initial","cmpYearsB":"25","cmpLtvA":"100","cmpLtvB":"100","cmpFuturePct":"6.993333","cmpFutureFixed":"0","cmpLoanTax":"0.25","cmpUnits":"real","cmpInflation":"2"},"modes":{"tan":"BCE · 2026-08","agency":"Automatico · 3% + IVA 22%","appraisal":"Stima · uguale al prezzo","notary":"Stima · 2.500 €","fees":"Stima · 1.200 €","insurance":"Stima · 400 €","growth":"IPAB storico · Roma · 2015–2025"},"comparisonLinks":{"cmpWealth":true,"cmpRent":true,"cmpPriceA":true,"cmpTanA":true,"cmpYearsA":true,"cmpFuturePct":true,"cmpLoanTax":true,"cmpRentFees":true,"Price":true,"Tan":true,"Years":true,"Ltv":true,"rentGrowth":true,"rentInflation":false,"cmpMoveBudget":true,"cmpLtvA":true},"curveSource":"Eurirs del 13/10/2026 · dati incorporati, senza aggiornamento automatico.","lastApi":{"value":3.6,"period":"2026-08"}}</script></head><body style="--head-h: 368px;"><header class="top"><div class="tophead"><div><div class="brand">Atlante / Finanza personale</div><h1>Mutuo e affitto</h1><p class="subtitle">Configura il mutuo · confronta le alternative · esplora il patrimonio</p></div><div class="download-box"><div class="tag">ITALIA · VERSIONE 6.8</div><button class="btn secondary download-button" id="downloadHtml" type="button">↓ Scarica HTML</button><p class="download-note">Salva una copia del simulatore con tutti i dati inseriti, da riaprire e modificare.</p></div></div></header><nav class="persistent-nav" aria-label="Sezioni principali"><nav class="tabs"><button class="tab active" data-page="dashboard" type="button">01 · Il mutuo</button><button class="tab" data-page="compare" type="button">02 · Comprare o affittare</button><button class="nav-top" id="navTop" type="button" title="Torna all’inizio della pagina" hidden=""><span aria-hidden="true">↑</span><span class="nav-top-label"> Inizio pagina</span></button></nav></nav><main><nav aria-label="Approfondimenti sul mutuo" class="mortgage-navigation" id="mortgageSubnav"><button class="subtab nav-primary active" data-page="dashboard"><span>Simulatore</span><small>Imposta il mutuo</small></button><div class="nav-secondary"><span class="nav-caption">Approfondimenti</span><div><button class="subtab" data-page="annual">Andamento</button><button class="subtab" data-page="monthly">Rate e formule</button></div></div></nav><p class="legend-source"><b>Fonte o stima applicata</b><em>Valore manuale</em></p><div class="invalid-banner" id="inputError" role="alert" hidden="">Correggi i dati: prezzo e mutuo positivi, mutuo non superiore al prezzo, durata intera 1–40 anni, TAN 0–30%, crescita −15–25%, altri importi non negativi. Con TAN dipendente dalla durata, controlla anche i valori della curva e che i TAN stimati siano tra 0 e 30%. I risultati sono sospesi.</div>
 <section class="page active" id="dashboard"><div class="toprow"><div><h2 class="page-title">Simulatore del mutuo</h2><p class="note">Imposta prezzo, importo, durata e tasso: rata, interessi e sostenibilità si aggiornano a ogni modifica.</p></div><button class="btn secondary" data-page="compare" type="button">Confronta con l’affitto ↗</button></div><div class="columns"><aside><div class="card"><div class="section-label">01 · Dati del finanziamento</div><h2>Prezzo, mutuo, durata e tasso</h2><div class="fields"><div class="field wide"><label for="price">Prezzo della casa (€)</label><input id="price" min="0" step="any" type="number" value="180000"></div><div class="field wide loan-pair-field"><label>Mutuo richiesto (€)</label><div class="amount-pair"><div class="value-control paired-control"><input id="principal" min="0" step="any" type="number" value="180000" aria-label="Importo del mutuo in euro"><div class="ratio-strip"><label for="principalPct">Quota finanziata</label><input id="principalPct" max="100" min="0.01" step="any" type="number" value="100" aria-label="Quota finanziata in percentuale"><span>%</span></div></div></div><p class="note">Due modi di impostare lo stesso mutuo. Se cambi il prezzo della casa, si mantiene la percentuale scelta. Il rapporto con la perizia è mostrato nella sostenibilità.</p></div><div class="field wide"><label for="yearsPreset">Durata (anni)</label><select id="yearsPreset"><option value="10">10 anni</option><option value="15">15 anni</option><option value="20">20 anni</option><option value="25" selected="">25 anni</option><option value="30">30 anni</option><option value="35">35 anni</option><option value="custom">Personalizzata…</option></select><input aria-label="Durata personalizzata in anni" id="years" max="40" min="1" step="1" style="display:none" type="number" value="25"></div><div class="field wide"><label for="tan">TAN annuo (%) <span class="tooltip" title="Tasso annuo nominale: nel modello gli interessi mensili sono calcolati con TAN / 12.">ⓘ</span></label><div class="value-control"><input id="tan" max="30" min="0" step="any" type="number" value="3.6" class="source-auto"><span aria-live="polite" class="source-tag auto" id="tanSource">BCE · 2026-08</span><button class="primary-light" id="refresh" type="button">↻ Applica tasso medio BCE</button></div></div><div class="field wide rate-mode-field"><label id="rateModeLabel">TAN nel confronto fra durate</label><div class="segmented" role="radiogroup" aria-labelledby="rateModeLabel"><button type="button" role="radio" data-rate-mode="curve" aria-checked="true">Dipende dalla durata</button><button type="button" role="radio" data-rate-mode="single" aria-checked="false">Uguale per tutte</button></div><select id="rateMode" hidden="" aria-hidden="true" tabindex="-1"><option value="single">TAN fisso</option><option value="curve" selected="">TAN dipendente dalla durata</option></select><p class="note field-help">Il TAN inserito vale per la durata scelta. Per le altre durate può seguire la curva Eurirs oppure restare uguale.</p></div></div><div class="apiline" hidden=""><div class="apirow"><span class="indicator" id="apiStatus"></span></div><p class="note" id="apiDetails"></p></div><details class="explain"><summary>Come leggere il tasso BCE</summary><p class="note">Serie BCE: nuovi mutui italiani per acquisto abitazione, tasso inizialmente fissato <b>oltre 10 anni</b>. È una media statistica AAR/NDER, non un preventivo bancario né un TAEG.</p><p class="note">La media BCE misura tassi concordati: non si aggiunge alcuno spread fisso. Il preventivo individuale può essere maggiore o minore per LTV, reddito, durata e banca.</p></details><div class="deduction-box"><button type="button" class="move-switch fiscal-switch" role="switch" aria-checked="true" data-fiscal="cmpDeduction"><span class="switch-track"><span></span></span><span><strong>Detrazione del 19% sugli interessi del mutuo</strong><small>Ipotizza il beneficio per l’abitazione principale: fino a 4.000 € di interessi l’anno, massimo 760 €. Riduce l’esborso netto nel confronto con l’affitto.</small></span></button><select id="cmpDeduction" hidden="" aria-hidden="true" tabindex="-1"><option value="yes" selected="">sì</option><option value="no">no</option></select><details class="explain"><summary>Come funziona la detrazione</summary><p class="note">Il beneficio fiscale entra nel confronto con l’affitto. La rata contrattuale, il piano di ammortamento e il rapporto rata/reddito restano calcolati prima della detrazione. Si ipotizzano requisiti e capienza fiscale; il beneficio è anticipato mensilmente e il limite è applicato per ogni blocco di 12 mesi della simulazione.</p></details></div></div>
 </aside>
 <div><div class="section-label">02 · Risultati del mutuo</div><div class="summary"><div class="metric hero"><small>Rata mensile</small><strong id="kPayment">910,80&nbsp;€</strong><span>Capitale e interessi</span></div><div class="metric"><small>Interessi totali</small><strong id="kInterest">93.241&nbsp;€</strong><span>Su tutta la durata</span></div><div class="metric"><small>Interessi / mutuo</small><strong id="kRatio">51,8%</strong><span>Non è un tasso annuale</span></div><div class="metric"><small>Totale rate</small><strong id="kTotal">273.241&nbsp;€</strong><span>Capitale + interessi</span></div><div class="metric"><small>Anticipo sul prezzo</small><strong id="kDown">0&nbsp;€</strong><span>Prezzo meno mutuo</span></div><div class="metric"><small>Interessi annualizzati</small><strong id="kInterestYear">0&nbsp;€</strong><span id="kInterestYearNote">In percentuale del prezzo</span></div></div>
@@ -2792,12 +2837,13 @@ window.renderComparison = function () {
     });
   // The difference says who wins and by how much, in the winner's colour; the paired scenarios are
   // given in the winner's favour (a negative bound means the other path wins in that scenario).
-  const winner = diff === null || Math.abs(diff) < 0.01 ? "" : diff > 0 ? "a" : "b",
+  // A few euros over the whole comparison is a tie (the break-even rent is found to the cent).
+  const winner = diff === null || Math.abs(cmpAmount(diff, c.horizon)) < 5 ? "" : diff > 0 ? "a" : "b",
     sign = winner === "b" ? -1 : 1,
     paired = diffs.every((x) => x !== null) ? diffs.map((x) => x * sign) : null,
     diffMetric =
       `<div class="metric${winner ? " is-" + winner : ""}"><small>${diff === null ? "DIFFERENZA" : winner ? "VINCE «" + names[winner === "a" ? 0 : 1].toUpperCase() + "»" : "PAREGGIO"}</small>` +
-      `<strong>${diff === null ? "—" : winner ? cmpEur(Math.abs(diff), c.horizon) + " in più" : "0 €"}</strong>` +
+      `<strong>${diff === null ? "—" : winner ? cmpEur(Math.abs(diff), c.horizon) + " in più" : "≈ 0 €"}</strong>` +
       `<span>${diff === null ? "Confronto finale non disponibile" : winner ? `di patrimonio netto rispetto a «${names[winner === "a" ? 1 : 0]}», a fine confronto` : "Patrimoni equivalenti nelle ipotesi scelte"}</span>` +
       `<span class="range">${val("cmpBand") && paired && winner ? "Scenari abbinati: da " + cmpEur(Math.min(...paired), c.horizon) + " a " + cmpEur(Math.max(...paired), c.horizon) : ""}</span></div>`;
   window.kpiSummary = {
@@ -2806,6 +2852,7 @@ window.renderComparison = function () {
     diff: diff === null ? "—" : winner ? cmpEur(Math.abs(diff), c.horizon) : "Pareggio",
     be: "—",
     rent: "—",
+    rentValue: NaN,
     rentDetail: "",
     returnRate: c.returnRate,
   };
@@ -2930,7 +2977,7 @@ function drawComparison(runs, c, frame) {
   const w = 1000,
     h = 430,
     left = 104,
-    right = 100,
+    right = 112,
     top = 30,
     // Prudent-phase lanes only when the phase shows up in the chart (same rule as the legend).
     lanes = c.deRisk && (c.move || c.defensiveScope === "both" || c.pac),
@@ -3036,17 +3083,18 @@ function drawComparison(runs, c, frame) {
   const finals = ["a", "b"]
     .map((k) => {
       const last = runs[1][k].rows.at(-1);
-      return last && { color: PATH_COLORS[k], value: cmpAmount(last.netWorth, last.year), y: Math.min(top + ph, Math.max(top, y(cmpAmount(last.netWorth, last.year)))) };
+      return last && { color: PATH_COLORS[k], name: PATH_NAMES[k === "a" ? 0 : 1], value: cmpAmount(last.netWorth, last.year), y: Math.min(top + ph, Math.max(top, y(cmpAmount(last.netWorth, last.year)))) };
     })
     .filter(Boolean);
-  if (finals.length === 2 && Math.abs(finals[0].y - finals[1].y) < 16) {
+  // Two lines each (value, then the path in brackets): kept 30 units apart.
+  if (finals.length === 2 && Math.abs(finals[0].y - finals[1].y) < 30) {
     const [hi, lo] = finals[0].y <= finals[1].y ? finals : [finals[1], finals[0]],
       mid = (hi.y + lo.y) / 2;
-    hi.y = mid - 8;
-    lo.y = mid + 8;
+    hi.y = mid - 15;
+    lo.y = mid + 15;
   }
   for (const e of finals)
-    svg += `<text class="t-end" x="${w - right + 8}" y="${e.y + 4}" style="fill:${e.color}">${eur(e.value)}</text>`;
+    svg += `<text class="t-end" x="${w - right + 8}" y="${e.y + 1}" style="fill:${e.color}">${eur(e.value)}<tspan class="t-end-name" x="${w - right + 8}" dy="13">(${e.name})</tspan></text>`;
   // X axis: multiples of 1, 2, 5 or 10 years, plus first and last year when not too close to a tick.
   const xStep = [1, 2, 5, 10, 20].find((st) => (c.horizon - tMin) / st <= 9) || 20,
     xTicks = [];
@@ -3980,7 +4028,7 @@ function rentBreakeven(c) {
     if (!ok(fhi)) return { status: "above", rent: a, capped: true };
   }
   if (fhi < 0) return { status: "above", rent: hi };
-  while (hi - lo > 0.005) {
+  while (hi - lo > 0.001) {
     const m = (lo + hi) / 2,
       fm = d(m);
     if (!ok(fm)) return { status: "na" };
@@ -4020,6 +4068,7 @@ function renderRentBreakeven(c, runs) {
       `<p class="be-verdict is-${winner ? "b" : "a"}">Sotto <b>${eur(r)}</b> vince «${PATH_NAMES[1]}», sopra «${PATH_NAMES[0]}». Il canone iniziale (<b>${eur(rent)}</b>) fa vincere «${PATH_NAMES[winner]}».</p>`;
     if (window.kpiSummary) {
       window.kpiSummary.rent = eur2(r);
+      window.kpiSummary.rentValue = r;
       window.kpiSummary.rentDetail = `${f1(ofPay)}% della rata · ${f2(yieldBe)}% annuo del prezzo`;
     }
   }
@@ -4792,7 +4841,7 @@ function refreshV29Layout(){
 }
 document.addEventListener('click',e=>{const a=e.target.closest('[data-section-target]');if(a){document.querySelector('.tab[data-page="dashboard"]').click();requestAnimationFrame(()=>{const target=$(a.dataset.sectionTarget);target.scrollIntoView({behavior:'smooth',block:'start'});target.setAttribute('tabindex','-1');target.focus({preventScroll:true});});}queueMicrotask(refreshV29Layout);});
 document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document.addEventListener('change',()=>queueMicrotask(refreshV29Layout));refreshV29Layout();
-</script><div class="explorer" id="explorer" hidden role="dialog" aria-modal="true" aria-labelledby="exTitle"><aside class="ex-panel"><div class="ex-head"><h2 id="exTitle" tabindex="-1">Esplora le ipotesi</h2><p>Le modifiche restano qui: <b>Salva nel foglio</b> le applica, <b>Annulla</b> torna ai valori del foglio.</p><p class="ex-legend"><span><i class="is-sheet"></i>valore del foglio</span><span><i class="is-base"></i>valore base</span><span><i class="is-alt"></i>alternativa</span></p></div><div class="ex-scroll" id="exControls"></div><div class="ex-foot"><span class="ex-count"><span id="exCount">Nessuna modifica rispetto al foglio</span><button type="button" class="ex-revert" id="exRevert" hidden>↺ Torna ai valori del foglio</button></span><button type="button" class="btn secondary" id="exCancel">Annulla</button><button type="button" class="btn" id="exSave">Salva nel foglio</button></div></aside><section class="ex-results" aria-label="Risultati del confronto"><div class="ex-summary" id="exSummary"></div><div id="exStage"></div></section></div><script>
+</script><div class="explorer" id="explorer" hidden role="dialog" aria-modal="true" aria-labelledby="exTitle"><aside class="ex-panel"><div class="ex-head"><div class="ex-title-row"><h2 id="exTitle" tabindex="-1">Esplora le ipotesi</h2><span class="ex-history"><button type="button" id="exUndo" title="Indietro (Ctrl+Z)" aria-label="Indietro">↶</button><button type="button" id="exRedo" title="Avanti (Ctrl+Y)" aria-label="Avanti">↷</button></span></div><p>Le modifiche restano qui: <b>Salva nel foglio</b> le applica, <b>Annulla</b> torna ai valori del foglio.</p></div><div class="ex-scroll" id="exControls"></div><div class="ex-foot"><span class="ex-count"><span id="exCount">Nessuna modifica rispetto al foglio</span><button type="button" class="ex-revert" id="exRevert" hidden>↺ Torna ai valori del foglio</button></span><button type="button" class="btn secondary" id="exCancel">Annulla</button><button type="button" class="btn" id="exSave">Salva nel foglio</button></div></aside><section class="ex-results" aria-label="Risultati del confronto"><div class="ex-summary" id="exSummary"></div><div id="exStage"></div></section></div><script>
 /* «Esplora le ipotesi»: full-screen editing opened from the tab next to the chart. The controls write to the
    sheet's own fields, so every link and rule of the sheet keeps working; the sheet as it was at opening is set
    aside and comes back with «Annulla», while «Salva nel foglio» keeps the changes. */
@@ -4817,12 +4866,16 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
     scrollY = 0,
     dragging = null,
     pending = null,
-    busy = false;
+    busy = false,
+    keepBreakeven = false,
+    locking = 0;
   const controls = [];
 
   // Slider moves arrive faster than a full recalculation (~70 ms): keep only the latest and apply it
   // as soon as the previous one has been drawn.
   function schedule(fn) {
+    if (normalizing) record();
+    locking = 0;
     pending = fn;
     if (!busy) run();
   }
@@ -4835,37 +4888,42 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
     setTimeout(run, 16);
   }
 
-  /* Slider + box bound to one value of the sheet. */
+  /* Number box (with a slider unless boxOnly) bound to one value of the sheet. When the value differs
+     from the sheet the box turns light orange and shows ↺ to go back. */
+  const fieldHtml = (label, attrs) =>
+    `<span class="ex-field"><button type="button" class="ex-undo" hidden aria-label="Torna al valore del foglio">↺</button><input class="ex-box" type="number" inputmode="decimal" aria-label="${label.replace(/<[^>]+>/g, "")}"${attrs}></span>`;
   function slider(d) {
     const el = document.createElement("div");
-    el.className = "ex-ctl" + (d.sub ? " is-sub" : "");
+    el.className = "ex-ctl" + (d.sub ? " is-sub" : "") + (d.boxOnly ? " is-box" : "");
     el.innerHTML =
-      `<div class="ex-row"><span class="ex-title"><span class="ex-label">${d.label}</span><button type="button" class="ex-back" hidden></button></span><input class="ex-box" type="number" inputmode="decimal" aria-label="${d.label.replace(/<[^>]+>/g, "")}" step="${d.boxStep ?? "any"}"` +
-      (d.boxMin !== undefined ? ` min="${d.boxMin}"` : "") +
-      (d.boxMax !== undefined ? ` max="${d.boxMax}"` : "") +
-      `></div><div class="ex-track"><input class="ex-range" type="range" step="${d.step}" aria-label="${d.label.replace(/<[^>]+>/g, "")}"><span class="ex-marks"></span></div>` +
+      `<div class="ex-row"><span class="ex-label">${d.label}</span>` +
+      fieldHtml(d.label, ` step="${d.boxStep ?? "any"}"` + (d.boxMin !== undefined ? ` min="${d.boxMin}"` : "") + (d.boxMax !== undefined ? ` max="${d.boxMax}"` : "")) +
+      `</div>` +
+      (d.boxOnly ? "" : `<div class="ex-track"><input class="ex-range" type="range" step="${d.step}" aria-label="${d.label.replace(/<[^>]+>/g, "")}"><span class="ex-marks"></span></div>`) +
       `<div class="ex-sub"><span class="ex-note"></span><span class="ex-acts"></span></div>`;
     const box = el.querySelector(".ex-box"),
       range = el.querySelector(".ex-range"),
       marks = el.querySelector(".ex-marks"),
       note = el.querySelector(".ex-note"),
       acts = el.querySelector(".ex-acts"),
-      back = el.querySelector(".ex-back");
+      back = el.querySelector(".ex-undo");
     let sheet = null,
       lo = d.min,
       hi = d.max,
       typing;
     const apply = (v) => schedule(() => d.set(v));
-    range.addEventListener("pointerdown", () => (dragging = range));
-    range.addEventListener("input", () => {
-      box.value = round(range.value, d.digits);
-      box.classList.remove("is-invalid");
-      apply(Number(range.value));
-    });
-    range.addEventListener("change", () => {
-      dragging = null;
-      queueMicrotask(syncAll);
-    });
+    if (range) {
+      range.addEventListener("pointerdown", () => (dragging = range));
+      range.addEventListener("input", () => {
+        box.value = round(range.value, d.digits);
+        box.classList.remove("is-invalid");
+        apply(Number(range.value));
+      });
+      range.addEventListener("change", () => {
+        dragging = null;
+        queueMicrotask(syncAll);
+      });
+    }
     const commit = () => {
       clearTimeout(typing);
       if (box.value === "" || !box.checkValidity()) return void box.classList.add("is-invalid");
@@ -4879,58 +4937,62 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
     box.addEventListener("change", commit);
     box.addEventListener("keydown", (e) => e.key === "Enter" && commit());
     box.addEventListener("blur", () => queueMicrotask(syncAll));
-    acts.addEventListener("click", (e) => e.target.closest("button") && d.std.apply());
+    acts.addEventListener("click", (e) => e.target.closest("button") && schedule(d.std.apply));
     back.addEventListener("click", () => (d.restore ? schedule(d.restore) : apply(sheet)));
     const ctl = {
       el,
       open() {
         sheet = round(d.get(), d.digits);
         if (d.bounds) [lo, hi] = d.bounds(sheet);
-        range.min = lo;
-        range.max = hi;
+        if (range) {
+          range.min = lo;
+          range.max = hi;
+        }
       },
       changed: () => (d.isChanged ? d.isChanged() : sheet !== null && round(d.get(), d.digits) !== sheet),
       sync() {
         const v = d.get(),
           off = d.disabled?.() || false;
         el.hidden = d.when ? !d.when() : false;
-        if (d.bounds && (v < lo || v > hi)) {
-          [lo, hi] = d.bounds(v, lo, hi);
-          range.min = lo;
-          range.max = hi;
+        if (range) {
+          if (d.bounds && (v < lo || v > hi)) {
+            [lo, hi] = d.bounds(v, lo, hi);
+            range.min = lo;
+            range.max = hi;
+          }
+          if (dragging !== range) range.value = v;
+          range.disabled = off;
+          const pos = (x) => Math.min(1, Math.max(0, (x - lo) / (hi - lo))).toFixed(4);
+          marks.innerHTML = [{ v: sheet, kind: "sheet", title: "Valore del foglio · " + d.fmt(sheet) }, ...(d.marks?.() || [])]
+            .filter((m) => Number.isFinite(m.v) && m.v >= lo && m.v <= hi)
+            .map((m) => `<i class="ex-mark is-${m.kind}" style="--p:${pos(m.v)}" title="${m.title}"></i>`)
+            .join("");
         }
-        if (dragging !== range) range.value = v;
-        if (document.activeElement !== box && dragging !== range) {
+        if (document.activeElement !== box && (!range || dragging !== range)) {
           box.value = round(v, d.digits);
           box.classList.remove("is-invalid");
         }
-        box.disabled = range.disabled = off;
+        box.disabled = off;
         el.classList.toggle("is-disabled", off);
-        const pos = (x) => Math.min(1, Math.max(0, (x - lo) / (hi - lo))).toFixed(4);
-        marks.innerHTML = [{ v: sheet, kind: "sheet", title: "Foglio · " + d.fmt(sheet) }, ...(d.marks?.() || [])]
-          .filter((m) => Number.isFinite(m.v) && m.v >= lo && m.v <= hi)
-          .map((m) => `<i class="ex-mark is-${m.kind}" style="--p:${pos(m.v)}" title="${m.title}"></i>`)
-          .join("");
         note.innerHTML = d.note?.() || "";
         const changed = ctl.changed();
-        el.classList.toggle("is-changed", changed);
-        acts.innerHTML =
-          d.std && !off && round(v, d.digits) !== round(d.std.value(), d.digits)
-            ? `<button type="button" class="ex-chip is-base" data-act="std">${d.std.label()}</button>`
-            : "";
-        back.hidden = !changed;
-        back.textContent = "↺ Foglio";
+        box.classList.toggle("is-changed", changed);
+        back.hidden = !changed || off;
         back.title = "Torna al valore del foglio: " + (d.sheetLabel ? d.sheetLabel() : d.fmt(sheet));
+        acts.innerHTML =
+          d.std && !off && d.std.available?.() !== false && round(v, d.digits) !== round(d.std.value(), d.digits)
+            ? `<button type="button" class="ex-chip is-base">${d.std.label()}</button>`
+            : "";
       },
     };
     controls.push(ctl);
     return el;
   }
 
-  /* On/off switch bound to an option of the sheet. */
+  /* On/off switch. */
   function toggle(d) {
     const el = document.createElement("div");
-    el.className = "ex-ctl ex-toggle" + (d.muted ? " is-muted" : "");
+    el.className = "ex-ctl ex-toggle" + (d.muted ? " is-muted" : "") + (d.sub ? " is-sub" : "");
     el.innerHTML = `<button type="button" class="ex-switch" role="switch"><span class="switch-track" aria-hidden="true"><span></span></span><span><strong class="ex-label">${d.label}</strong><small>${d.hint}</small></span></button>`;
     const b = el.querySelector("button");
     let sheet = null;
@@ -4938,9 +5000,10 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
     const ctl = {
       el,
       open: () => (sheet = d.get()),
-      changed: () => sheet !== null && d.get() !== sheet,
+      changed: () => !d.local && sheet !== null && d.get() !== sheet,
       sync() {
         b.setAttribute("aria-checked", String(d.get()));
+        b.disabled = d.disabled?.() || false;
         el.classList.toggle("is-changed", ctl.changed());
       },
     };
@@ -4952,26 +5015,22 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
   function choice(d) {
     const el = document.createElement("div"),
       src = $(d.id);
-    el.className = "ex-ctl";
+    el.className = "ex-ctl is-box";
     el.innerHTML =
-      `<div class="ex-row"><span class="ex-title"><span class="ex-label">${d.label}</span><button type="button" class="ex-back" hidden></button></span><select class="ex-select" aria-label="${d.label}">${src.innerHTML}</select></div>` +
+      `<div class="ex-row"><span class="ex-label">${d.label}</span><span class="ex-field is-select"><button type="button" class="ex-undo" hidden aria-label="Torna al valore del foglio">↺</button><select class="ex-select" aria-label="${d.label}">${src.innerHTML}</select></span></div>` +
       `<div class="ex-sub"><span class="ex-note"></span><span class="ex-acts"></span></div>`;
     const sel = el.querySelector("select"),
       acts = el.querySelector(".ex-acts"),
       note = el.querySelector(".ex-note"),
-      back = el.querySelector(".ex-back");
+      back = el.querySelector(".ex-undo");
     let sheet = null;
-    back.addEventListener("click", () => {
-      src.value = sheet;
+    const put = (v) => {
+      src.value = v;
       src.dispatchEvent(new Event("input", { bubbles: true }));
-    });
-    sel.addEventListener("change", () =>
-      schedule(() => {
-        src.value = sel.value;
-        src.dispatchEvent(new Event("input", { bubbles: true }));
-      }),
-    );
-    acts.addEventListener("click", (e) => e.target.closest("button") && resetOf(d.id).click());
+    };
+    back.addEventListener("click", () => schedule(() => put(sheet)));
+    sel.addEventListener("change", () => schedule(() => put(sel.value)));
+    acts.addEventListener("click", (e) => e.target.closest("button") && schedule(() => resetOf(d.id).click()));
     const ctl = {
       el,
       open: () => (sheet = src.value),
@@ -4981,11 +5040,10 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
         note.innerHTML = d.note?.() || "";
         const changed = ctl.changed(),
           reset = resetOf(d.id);
-        el.classList.toggle("is-changed", changed);
-        acts.innerHTML = reset && src.value !== reset.dataset.value ? `<button type="button" class="ex-chip is-base" data-act="std">${reset.textContent}</button>` : "";
+        sel.classList.toggle("is-changed", changed);
         back.hidden = !changed;
-        back.textContent = "↺ Foglio";
         back.title = "Torna al valore del foglio: " + (src.querySelector(`option[value="${sheet}"]`)?.textContent || sheet);
+        acts.innerHTML = reset && src.value !== reset.dataset.value ? `<button type="button" class="ex-chip is-base">${reset.textContent}</button>` : "";
       },
     };
     controls.push(ctl);
@@ -5011,109 +5069,40 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
     return el;
   }
 
-  /* Small buttons that press a button of the sheet (presets, links) and mirror its state. */
-  function chips(items, cls = "ex-choices") {
-    const el = document.createElement("div");
-    el.className = cls;
-    el.innerHTML = items
-      .map((it, i) => (it.html ? it.html : `<button type="button" class="ex-chip${it.tone ? " is-" + it.tone : ""}" data-i="${i}"></button>`))
-      .join("");
-    el.addEventListener("click", (e) => {
-      const b = e.target.closest("[data-i]");
-      if (b) schedule(items[b.dataset.i].press);
-    });
-    controls.push({
-      el,
-      open() {},
-      changed: () => false,
-      sync() {
-        el.querySelectorAll("[data-i]").forEach((b) => {
-          const it = items[b.dataset.i];
-          b.innerHTML = it.label();
-          b.setAttribute("aria-pressed", String(!!it.pressed?.()));
-          b.hidden = it.when ? !it.when() : false;
-        });
-      },
-    });
+  /* Element with its own sync (buttons, lists). */
+  function custom(el, sync, changed = () => false) {
+    controls.push({ el, open() {}, changed, sync });
     return el;
   }
+  const card = (cls, ...children) => {
+    const el = document.createElement("div");
+    el.className = "ex-card" + (cls ? " " + cls : "");
+    el.append(...children);
+    return el;
+  };
 
   const priceBounds = (v, lo = Infinity, hi = 0) => [
     Math.max(5000, Math.min(lo, Math.floor((v * 0.5) / 5000) * 5000)),
     Math.max(hi, Math.ceil((v * 2) / 5000) * 5000),
   ];
-  const rentPreset = (kind) => document.querySelector(`[data-rent-preset="${kind}"]`),
-    linkButton = () => document.querySelector('[data-link="rentGrowth"]'),
-    rentLinked = () => comparisonLinks.cmpRent;
+  const rentLinked = () => comparisonLinks.cmpRent,
+    breakevenRent = () => window.kpiSummary?.rentValue,
+    atBreakeven = () => Number.isFinite(breakevenRent()) && Math.abs(val("cmpRent") - breakevenRent()) < 0.5;
+  // The rent goes to the break-even through the share of the price, so it stays linked like the slider.
+  function rentToBreakeven() {
+    const r = breakevenRent();
+    if (!Number.isFinite(r) || val("price") <= 0) return false;
+    setField("cmpRentYield", (r * 1200) / val("price"));
+    return true;
+  }
 
-  const base = [
-    slider({
-      label: "Prezzo della casa (€)",
-      digits: 0,
-      step: 1000,
-      boxMin: 1000,
-      boxStep: 1000,
-      bounds: priceBounds,
-      get: () => val("price"),
-      set: (v) => setField("price", v),
-      fmt: eur,
-    }),
-    slider({
-      label: "Anticipo iniziale (% del prezzo)",
-      digits: 2,
-      min: 0,
-      max: 90,
-      step: 5,
-      boxMin: 0,
-      boxMax: 99,
-      get: () => 100 - val("principalPct"),
-      set: (v) => setField("principalPct", round(100 - v, 6)),
-      fmt: (v) => pc(v),
-      note: () => `Anticipo <b>${eur(val("price") - val("principal"))}</b> · mutuo <b>${eur(val("principal"))}</b>`,
-    }),
-    readout({
-      label: "Spese d’acquisto",
-      value: () => eur(cmpCosts()),
-      note: () => "Imposte, notaio, agenzia e banca: si modificano in «01 · Il mutuo».",
-    }),
-    slider({
-      label: "Spese d’ingresso · Rispetto ai costi d’acquisto (%)",
-      sub: true,
-      digits: 1,
-      min: 0,
-      max: 50,
-      step: 1,
-      boxMin: 0,
-      boxMax: 1000,
-      get: () => val("cmpRentFeesPct"),
-      set: (v) => setField("cmpRentFeesPct", v),
-      fmt: (v) => pc(v, 1),
-      note: () => `Spese d’ingresso dell’affitto <b>${eur(val("cmpRentFees"))}</b>`,
-    }),
-    slider({
-      label: "Durata (anni)",
-      digits: 0,
-      min: 5,
-      max: 40,
-      step: 5,
-      boxMin: 1,
-      boxMax: 40,
-      boxStep: 1,
-      get: () => val("years"),
-      set: (v) => {
-        v = Math.min(40, Math.max(1, Math.round(v)));
-        $("years").value = v;
-        $("yearsPreset").value = YEAR_PRESETS.includes(v) ? String(v) : "custom";
-        $("yearsPreset").dispatchEvent(new Event("change", { bubbles: true }));
-      },
-      fmt: (v) => v + " anni",
-    }),
-    readout({
-      label: "Rata mensile",
-      cls: "is-key",
-      value: () => eur2(payment(val("principal"), val("tan"), val("years"))),
-      note: () => `Mutuo <b>${eur(val("principal"))}</b> · TAN <b>${rateFmt(val("tan"))}</b> · <b>${val("years")}</b> anni`,
-    }),
+  /* 1. Rent: first, and on large screens always in view. */
+  const rentButton = document.createElement("button");
+  rentButton.type = "button";
+  rentButton.className = "ex-chip is-be";
+  rentButton.addEventListener("click", () => schedule(rentToBreakeven));
+  const rentCard = card(
+    "is-rent",
     readout({
       label: "Canone iniziale (€/mese)",
       cls: "is-key",
@@ -5126,7 +5115,6 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
     }),
     slider({
       label: "Canone annuo sul prezzo (%)",
-      sub: true,
       digits: 2,
       min: 1,
       max: 12,
@@ -5136,7 +5124,11 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
       get: () => val("cmpRentYield"),
       set: (v) => setField("cmpRentYield", v),
       fmt: (v) => pc(v),
-      marks: () => [{ v: 5, kind: "alt", title: "Regola del 5%" }],
+      disabled: () => keepBreakeven,
+      marks: () => [
+        { v: 5, kind: "alt", title: "Regola del 5%" },
+        ...(Number.isFinite(breakevenRent()) && val("price") > 0 ? [{ v: (breakevenRent() * 1200) / val("price"), kind: "be", title: "Canone di pareggio" }] : []),
+      ],
       // The way back restores how the sheet sets the rent (share of the payment, of the price, or euros).
       isChanged: () => {
         const v = sheetState.values,
@@ -5156,218 +5148,360 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
         build();
       },
     }),
-    chips([
-      {
-        tone: "alt",
-        label: () => rentPreset("price").innerHTML,
-        pressed: () => rentPreset("price").getAttribute("aria-pressed") === "true",
-        press: () => rentPreset("price").click(),
+    custom(
+      (() => {
+        const row = document.createElement("div");
+        row.className = "ex-be-row";
+        row.append(rentButton);
+        return row;
+      })(),
+      () => {
+        const r = breakevenRent();
+        rentButton.disabled = !Number.isFinite(r) || keepBreakeven;
+        rentButton.innerHTML = Number.isFinite(r) ? `↻ Canone di pareggio · <b>${eur2(r)}</b>` : "Canone di pareggio non individuato";
+        rentButton.setAttribute("aria-pressed", String(atBreakeven()));
       },
-    ]),
+    ),
     toggle({
-      label: "Cambiare casa durante il confronto",
-      hint: "Un acquisto futuro nei due percorsi",
-      get: () => $("moveEnabled").value === "yes",
-      toggle: () => $("moveSwitch").click(),
+      label: "Mantieni al pareggio",
+      hint: "Il canone segue il pareggio mentre cambi le altre ipotesi",
+      local: true,
+      get: () => keepBreakeven,
+      disabled: () => !Number.isFinite(breakevenRent()) && !keepBreakeven,
+      toggle: () => {
+        keepBreakeven = !keepBreakeven;
+        if (!keepBreakeven || !rentToBreakeven()) syncAll();
+      },
     }),
-    slider({
-      label: "Cambio casa dopo (anni)",
-      sub: true,
-      digits: 0,
-      min: 1,
-      max: 30,
-      step: 1,
-      boxMin: 1,
-      boxMax: 59,
-      boxStep: 1,
-      when: () => $("moveEnabled").value === "yes",
-      get: () => val("cmpMoveYear"),
-      set: (v) => setField("cmpMoveYear", Math.round(v)),
-      fmt: (v) => v + " anni",
-    }),
-    toggle({
-      label: "Accumulare l’anticipo prima dell’acquisto",
-      hint: "Stesso risparmio mensile, usato in modo diverso",
-      muted: true,
-      get: () => $("pacEnabled").value === "yes",
-      toggle: () => document.querySelector("[data-pac-switch]").click(),
-    }),
-    slider({
-      label: "Anni per accumulare l’anticipo",
-      sub: true,
-      digits: 0,
-      min: 1,
-      max: 20,
-      step: 1,
-      boxMin: 1,
-      boxMax: 40,
-      boxStep: 1,
-      when: () => $("pacEnabled").value === "yes",
-      get: () => val("pacYears"),
-      set: (v) => setField("pacYears", Math.round(v)),
-      fmt: (v) => v + " anni",
-    }),
+  );
+
+  const base = [
+    rentCard,
+    card(
+      "",
+      slider({
+        label: "Prezzo della casa (€)",
+        digits: 0,
+        step: 1000,
+        boxMin: 1000,
+        boxStep: 1000,
+        bounds: priceBounds,
+        get: () => val("price"),
+        set: (v) => setField("price", v),
+        fmt: eur,
+      }),
+    ),
+    card(
+      "",
+      slider({
+        label: "Anticipo iniziale (% del prezzo)",
+        digits: 2,
+        min: 0,
+        max: 90,
+        step: 5,
+        boxMin: 0,
+        boxMax: 99,
+        get: () => 100 - val("principalPct"),
+        set: (v) => setField("principalPct", round(100 - v, 6)),
+        fmt: (v) => pc(v),
+        note: () => `Anticipo <b>${eur(val("price") - val("principal"))}</b> · mutuo <b>${eur(val("principal"))}</b>`,
+      }),
+    ),
+    card(
+      "",
+      readout({
+        label: "Spese d’acquisto",
+        value: () => eur(cmpCosts()),
+        note: () => "Imposte, notaio, agenzia e banca: si modificano in «01 · Il mutuo».",
+      }),
+      slider({
+        label: "Spese d’ingresso · Rispetto ai costi d’acquisto (%)",
+        sub: true,
+        digits: 1,
+        min: 0,
+        max: 50,
+        step: 1,
+        boxMin: 0,
+        boxMax: 1000,
+        get: () => val("cmpRentFeesPct"),
+        set: (v) => setField("cmpRentFeesPct", v),
+        fmt: (v) => pc(v, 1),
+        note: () => `Spese d’ingresso dell’affitto <b>${eur(val("cmpRentFees"))}</b>`,
+      }),
+    ),
+    card(
+      "",
+      slider({
+        label: "Durata (anni)",
+        digits: 0,
+        min: 5,
+        max: 40,
+        step: 5,
+        boxMin: 1,
+        boxMax: 40,
+        boxStep: 1,
+        get: () => val("years"),
+        set: (v) => {
+          v = Math.min(40, Math.max(1, Math.round(v)));
+          $("years").value = v;
+          $("yearsPreset").value = YEAR_PRESETS.includes(v) ? String(v) : "custom";
+          $("yearsPreset").dispatchEvent(new Event("change", { bubbles: true }));
+        },
+        fmt: (v) => v + " anni",
+      }),
+      readout({
+        label: "Rata mensile",
+        cls: "is-key",
+        value: () => eur2(payment(val("principal"), val("tan"), val("years"))),
+        note: () => `Mutuo <b>${eur(val("principal"))}</b> · TAN <b>${rateFmt(val("tan"))}</b> · <b>${val("years")}</b> anni`,
+      }),
+    ),
+    card(
+      "",
+      toggle({
+        label: "Cambiare casa durante il confronto",
+        hint: "Un acquisto futuro nei due percorsi",
+        get: () => $("moveEnabled").value === "yes",
+        toggle: () => $("moveSwitch").click(),
+      }),
+      slider({
+        label: "Cambio casa dopo (anni)",
+        sub: true,
+        digits: 0,
+        min: 1,
+        max: 30,
+        step: 1,
+        boxMin: 1,
+        boxMax: 59,
+        boxStep: 1,
+        when: () => $("moveEnabled").value === "yes",
+        get: () => val("cmpMoveYear"),
+        set: (v) => setField("cmpMoveYear", Math.round(v)),
+        fmt: (v) => v + " anni",
+      }),
+    ),
+    card(
+      "is-muted",
+      toggle({
+        label: "Accumulare l’anticipo prima dell’acquisto",
+        hint: "Stesso risparmio mensile, usato in modo diverso",
+        muted: true,
+        get: () => $("pacEnabled").value === "yes",
+        toggle: () => document.querySelector("[data-pac-switch]").click(),
+      }),
+      slider({
+        label: "Anni per accumulare l’anticipo",
+        sub: true,
+        digits: 0,
+        min: 1,
+        max: 20,
+        step: 1,
+        boxMin: 1,
+        boxMax: 40,
+        boxStep: 1,
+        when: () => $("pacEnabled").value === "yes",
+        get: () => val("pacYears"),
+        set: (v) => setField("pacYears", Math.round(v)),
+        fmt: (v) => v + " anni",
+      }),
+    ),
   ];
 
+  /* 2. Advanced: number boxes only. House growth: one list (inflation, then territories) and, between the two
+     boxes, the link that makes the rent grow like the house. */
+  const growthKey = () =>
+    sourceModes.growth.startsWith("IPAB storico") ? "ipab:" + $("ipabLocation").value : sourceModes.growth.startsWith("Scenario · inflazione") ? "inflation" : "manual";
+  const growthList = document.createElement("select");
+  growthList.className = "ex-select is-wide";
+  growthList.setAttribute("aria-label", "Crescita della casa: inflazione o territorio");
+  growthList.addEventListener("change", () =>
+    schedule(() => {
+      const v = growthList.value;
+      if (v === "inflation") $("growthReference").click();
+      else if (v.startsWith("ipab:")) chooseTerritory(v.slice(5));
+      else syncAll();
+    }),
+  );
+  const linkButton = document.createElement("button");
+  linkButton.type = "button";
+  linkButton.className = "ex-link";
+  linkButton.addEventListener("click", () => schedule(() => document.querySelector('[data-link="rentGrowth"]').click()));
+  const growthRow = document.createElement("div");
+  growthRow.className = "ex-growth-row";
+  growthRow.append(growthList, linkButton);
+  const sheetGrowth = () => ({
+    growth: sheetState.values.growth,
+    area: sheetState.values.ipabLocation,
+    mode: sheetState.modes.growth,
+  });
   const advanced = [
-    slider({
-      label: "Crescita annua del valore (%)",
-      digits: 2,
-      min: -3,
-      max: 8,
-      step: 0.05,
-      boxMin: -15,
-      boxMax: 25,
-      get: () => val("growth"),
-      set: (v) => setField("growth", v),
-      fmt: (v) => pc(v),
-      marks: () => [
-        { v: Number(selectedIpab().cagr.toFixed(2)), kind: "base", title: "Territorio · " + selectedIpab().name },
-        { v: val("cmpInflation"), kind: "alt", title: "Al passo con l’inflazione" },
-      ],
-      note: () =>
-        sourceModes.growth.startsWith("IPAB storico")
-          ? `Territorio · ${selectedIpab().name}`
-          : sourceModes.growth.startsWith("Scenario · inflazione")
-            ? "Al passo con l’inflazione"
-            : "Valore manuale",
-    }),
-    chips([
-      { html: '<div class="territory-picker" data-territory-picker=""></div>' },
-      {
-        tone: "alt",
-        label: () => $("growthReference").innerHTML,
-        pressed: () => sourceModes.growth.startsWith("Scenario · inflazione"),
-        press: () => $("growthReference").click(),
-      },
-      {
-        tone: "link",
-        label: () => (comparisonLinks.rentGrowth ? "↔ Crescita del canone collegata" : "Collega la crescita del canone"),
-        pressed: () => comparisonLinks.rentGrowth,
-        press: () => linkButton().click(),
-      },
-    ]),
-    slider({
-      label: "Crescita annua del canone (%)",
-      sub: true,
-      digits: 2,
-      min: -3,
-      max: 8,
-      step: 0.05,
-      boxMin: -10,
-      boxMax: 20,
-      when: () => !comparisonLinks.rentGrowth,
-      get: () => val("cmpRentGrowth"),
-      set: (v) => setField("cmpRentGrowth", v),
-      fmt: (v) => pc(v),
-      marks: () => [{ v: val("cmpInflation"), kind: "alt", title: "Al passo con l’inflazione" }],
-      note: () => (comparisonLinks.rentInflation ? "Al passo con l’inflazione" : "Crescita personalizzata"),
-    }),
-    chips([
-      {
-        tone: "alt",
-        label: () => resetOf("cmpRentGrowth").innerHTML,
-        pressed: () => !comparisonLinks.rentGrowth && comparisonLinks.rentInflation,
-        when: () => !comparisonLinks.rentGrowth,
-        press: () => resetOf("cmpRentGrowth").click(),
-      },
-    ]),
-    slider({
-      label: "Inflazione annua ipotizzata (%)",
-      digits: 2,
-      min: 0,
-      max: 8,
-      step: 0.1,
-      boxMin: -5,
-      boxMax: 20,
-      get: () => val("cmpInflation"),
-      set: (v) => setField("cmpInflation", v),
-      fmt: (v) => pc(v),
-    }),
-    slider({
-      label: "TAN annuo (%)",
-      digits: 3,
-      min: 0.5,
-      max: 8,
-      step: 0.05,
-      boxMin: 0,
-      boxMax: 30,
-      get: () => val("tan"),
-      set: (v) => setField("tan", v),
-      fmt: (v) => pc(v, 3),
-      marks: () => (bce() ? [{ v: bce().value, kind: "base", title: "Tasso medio BCE · " + bce().period }] : []),
-      std: {
-        value: () => (bce() ? bce().value : val("tan")),
-        label: () => `↻ Applica tasso medio BCE · ${pc(bce().value, 3)}`,
-        apply: () => {
-          const r = bce();
-          $("tan").value = r.value;
-          sourceModes.tan = "BCE · " + r.period;
+    card(
+      "is-growth",
+      slider({
+        label: "Crescita annua del valore (%)",
+        boxOnly: true,
+        digits: 2,
+        boxMin: -15,
+        boxMax: 25,
+        get: () => val("growth"),
+        set: (v) => setField("growth", v),
+        fmt: (v) => pc(v),
+        isChanged: () => {
+          const s = sheetGrowth();
+          return round(val("growth"), 2) !== round(s.growth, 2) || sourceModes.growth !== s.mode || (s.mode.startsWith("IPAB") && $("ipabLocation").value !== s.area);
+        },
+        restore: () => {
+          const s = sheetGrowth();
+          $("ipabLocation").value = s.area;
+          $("growth").value = s.growth;
+          sourceModes.growth = s.mode;
           build();
         },
-      },
-      note: () => (sourceModes.tan.startsWith("BCE") ? sourceModes.tan : "Valore manuale"),
-    }),
-    slider({
-      label: "Rendimento azionario nominale annuo (%)",
-      digits: 2,
-      min: 0,
-      max: 15,
-      step: 0.1,
-      boxMin: -50,
-      boxMax: 50,
-      get: () => val("cmpReturn"),
-      set: (v) => setField("cmpReturn", v),
-      fmt: (v) => pc(v),
-      marks: () => [{ v: Number(resetOf("cmpReturn").dataset.value), kind: "base", title: resetOf("cmpReturn").textContent.slice(2) }],
-      std: { value: () => Number(resetOf("cmpReturn").dataset.value), label: () => resetOf("cmpReturn").textContent, apply: () => resetOf("cmpReturn").click() },
-    }),
-    slider({
-      label: "Rendimento prudente nominale annuo (%)",
-      digits: 2,
-      min: 0,
-      max: 8,
-      step: 0.1,
-      boxMin: -20,
-      boxMax: 30,
-      get: () => val("cmpDefensiveRate"),
-      set: (v) => setField("cmpDefensiveRate", v),
-      fmt: (v) => pc(v),
-      disabled: () => $("cmpDefensiveRate").disabled,
-      marks: () => [{ v: Number(resetOf("cmpDefensiveRate").dataset.value), kind: "base", title: resetOf("cmpDefensiveRate").textContent.slice(2) }],
-      std: {
-        value: () => Number(resetOf("cmpDefensiveRate").dataset.value),
-        label: () => resetOf("cmpDefensiveRate").textContent,
-        apply: () => resetOf("cmpDefensiveRate").click(),
-      },
-      note: () =>
-        $("cmpDefensiveRate").disabled
-          ? $("cmpDeRisk").value === "no"
-            ? "Fase prudente disattivata."
-            : "Si applica prima di un acquisto futuro (cambio casa o accumulo) o «a fine confronto»."
-          : `Negli ultimi <b>${val("cmpDefensiveYears")}</b> anni prima dell’utilizzo.`,
-    }),
-    choice({ id: "cmpDeRisk", label: "Quando ridurre il rischio" }),
-    slider({
-      label: "Manutenzione straordinaria · % annua del valore corrente della casa",
-      digits: 2,
-      min: 0,
-      max: 3,
-      step: 0.1,
-      boxMin: 0,
-      boxMax: 10,
-      get: () => val("cmpMaint"),
-      set: (v) => setField("cmpMaint", v),
-      fmt: (v) => pc(v),
-      marks: () => [{ v: Number(resetOf("cmpMaint").dataset.value), kind: "base", title: resetOf("cmpMaint").textContent.slice(2) }],
-      std: { value: () => Number(resetOf("cmpMaint").dataset.value), label: () => resetOf("cmpMaint").textContent, apply: () => resetOf("cmpMaint").click() },
-    }),
+      }),
+      custom(growthRow, () => {
+        const areas = Object.entries(ipabAreaNames).filter(([k]) => ipabDataset.areas[k]),
+          key = growthKey(),
+          f = (x) => x.toLocaleString("it-IT", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "%";
+        growthList.innerHTML =
+          `<option value="inflation">Al passo con l’inflazione · ${pc(val("cmpInflation"))}</option>` +
+          areas.map(([k, n]) => `<option value="ipab:${k}">Territorio · ${n}${k === "IT" ? " (media nazionale)" : ""} · ${f(ipabDataset.areas[k].cagr)}</option>`).join("") +
+          (key === "manual" ? `<option value="manual">Valore manuale</option>` : "");
+        growthList.value = key;
+        growthList.classList.toggle("is-alt", key === "inflation");
+        const linked = comparisonLinks.rentGrowth;
+        linkButton.setAttribute("aria-pressed", String(linked));
+        linkButton.innerHTML = linked ? "↕ Collegate" : "↕ Collega";
+        linkButton.title = linked
+          ? "La crescita del canone segue quella della casa: premi per scollegarla"
+          : "Premi perché la crescita del canone segua quella della casa";
+      }),
+      slider({
+        label: "Crescita annua del canone (%)",
+        boxOnly: true,
+        digits: 2,
+        boxMin: -10,
+        boxMax: 20,
+        get: () => val("cmpRentGrowth"),
+        set: (v) => setField("cmpRentGrowth", v),
+        fmt: (v) => pc(v),
+        note: () => (comparisonLinks.rentGrowth ? "" : comparisonLinks.rentInflation ? "Al passo con l’inflazione" : "Crescita personalizzata"),
+        // Linked (to the house or to inflation) as in the sheet: the value follows, the setting is unchanged.
+        isChanged: () => {
+          const L = sheetState.links;
+          if (!!comparisonLinks.rentGrowth !== !!L.rentGrowth) return true;
+          if (L.rentGrowth) return false;
+          if (!!comparisonLinks.rentInflation !== !!L.rentInflation) return true;
+          return !L.rentInflation && round(val("cmpRentGrowth"), 2) !== round(sheetState.values.cmpRentGrowth, 2);
+        },
+        restore: () => {
+          comparisonLinks.rentGrowth = sheetState.links.rentGrowth;
+          comparisonLinks.rentInflation = sheetState.links.rentInflation;
+          $("cmpRentGrowth").value = sheetState.values.cmpRentGrowth;
+          build();
+        },
+      }),
+    ),
+    card(
+      "",
+      slider({
+        label: "Inflazione annua ipotizzata (%)",
+        boxOnly: true,
+        digits: 2,
+        boxMin: -5,
+        boxMax: 20,
+        get: () => val("cmpInflation"),
+        set: (v) => setField("cmpInflation", v),
+        fmt: (v) => pc(v),
+      }),
+    ),
+    card(
+      "",
+      slider({
+        label: "TAN annuo (%)",
+        boxOnly: true,
+        digits: 3,
+        boxMin: 0,
+        boxMax: 30,
+        get: () => val("tan"),
+        set: (v) => setField("tan", v),
+        fmt: (v) => pc(v, 3),
+        std: {
+          available: () => !!bce(),
+          value: () => (bce() ? bce().value : val("tan")),
+          label: () => `↻ Applica tasso medio BCE · ${pc(bce().value, 3)}`,
+          apply: () => {
+            const r = bce();
+            $("tan").value = r.value;
+            sourceModes.tan = "BCE · " + r.period;
+            build();
+          },
+        },
+        note: () => (sourceModes.tan.startsWith("BCE") ? sourceModes.tan : "Valore manuale"),
+      }),
+    ),
+    card(
+      "",
+      slider({
+        label: "Rendimento azionario nominale annuo (%)",
+        boxOnly: true,
+        digits: 2,
+        boxMin: -50,
+        boxMax: 50,
+        get: () => val("cmpReturn"),
+        set: (v) => setField("cmpReturn", v),
+        fmt: (v) => pc(v),
+        std: { value: () => Number(resetOf("cmpReturn").dataset.value), label: () => resetOf("cmpReturn").textContent, apply: () => resetOf("cmpReturn").click() },
+      }),
+    ),
+    card(
+      "",
+      slider({
+        label: "Rendimento prudente nominale annuo (%)",
+        boxOnly: true,
+        digits: 2,
+        boxMin: -20,
+        boxMax: 30,
+        get: () => val("cmpDefensiveRate"),
+        set: (v) => setField("cmpDefensiveRate", v),
+        fmt: (v) => pc(v),
+        disabled: () => $("cmpDefensiveRate").disabled,
+        std: {
+          value: () => Number(resetOf("cmpDefensiveRate").dataset.value),
+          label: () => resetOf("cmpDefensiveRate").textContent,
+          apply: () => resetOf("cmpDefensiveRate").click(),
+        },
+        note: () =>
+          $("cmpDefensiveRate").disabled
+            ? $("cmpDeRisk").value === "no"
+              ? "Fase prudente disattivata."
+              : "Si applica prima di un acquisto futuro (cambio casa o accumulo) o «a fine confronto»."
+            : `Negli ultimi <b>${val("cmpDefensiveYears")}</b> anni prima dell’utilizzo.`,
+      }),
+      choice({ id: "cmpDeRisk", label: "Quando ridurre il rischio" }),
+    ),
+    card(
+      "",
+      slider({
+        label: "Manutenzione straordinaria · % annua del valore corrente della casa",
+        boxOnly: true,
+        digits: 2,
+        boxMin: 0,
+        boxMax: 10,
+        get: () => val("cmpMaint"),
+        set: (v) => setField("cmpMaint", v),
+        fmt: (v) => pc(v),
+        std: { value: () => Number(resetOf("cmpMaint").dataset.value), label: () => resetOf("cmpMaint").textContent, apply: () => resetOf("cmpMaint").click() },
+      }),
+    ),
   ];
 
   const adv = document.createElement("details");
   adv.className = "ex-adv";
   adv.innerHTML = "<summary>Comandi avanzati</summary>";
-  adv.append(...advanced);
+  const advBody = document.createElement("div");
+  advBody.className = "ex-adv-body";
+  advBody.append(...advanced);
+  adv.append(advBody);
   list.replaceChildren(...base, adv);
 
   /* Results at a glance, against the sheet. */
@@ -5399,6 +5533,8 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
     $("exCount").textContent = n ? `${n} ${n === 1 ? "valore modificato" : "valori modificati"} rispetto al foglio` : "Nessuna modifica rispetto al foglio";
     $("exRevert").hidden = !n;
     renderSummary();
+    $("exUndo").disabled = hIndex <= 0 && !recordTimer;
+    $("exRedo").disabled = hIndex >= history.length - 1;
   }
 
   /* Sheet state: every field of the page, the sources and the links. */
@@ -5418,15 +5554,78 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
     build();
   }
 
+  /* Ctrl+Z / Ctrl+Y: states recorded once the changes settle (a slider drag is one step). */
+  let history = [],
+    hIndex = -1,
+    recordTimer = 0,
+    normalizing = false;
+  const keyOf = (s) => JSON.stringify([s.values, s.modes, s.links]);
+  function record() {
+    clearTimeout(recordTimer);
+    recordTimer = 0;
+    const s = capture(),
+      key = keyOf(s);
+    // Right after a step back the recalculated sheet replaces the restored state, without a new step.
+    if (normalizing) {
+      normalizing = false;
+      history[hIndex] = { s, key };
+      return;
+    }
+    if (history[hIndex]?.key === key) return;
+    history = history.slice(0, hIndex + 1);
+    history.push({ s, key });
+    hIndex = history.length - 1;
+  }
+  function step(dir) {
+    if (ex.hidden) return;
+    if (document.activeElement?.closest?.(".ex-panel")) document.activeElement.blur();
+    if (recordTimer) record();
+    const to = hIndex + dir;
+    if (to < 0 || to >= history.length) return;
+    hIndex = to;
+    pending = null;
+    keepBreakeven = false;
+    normalizing = true;
+    restore(history[hIndex].s);
+  }
+  document.addEventListener("keydown", (e) => {
+    if (ex.hidden || !(e.ctrlKey || e.metaKey) || e.altKey) return;
+    const k = e.key.toLowerCase();
+    if (k === "z" && !e.shiftKey) {
+      e.preventDefault();
+      step(-1);
+    } else if (k === "y" || (k === "z" && e.shiftKey)) {
+      e.preventDefault();
+      step(1);
+    }
+  });
+
+  function afterBuild() {
+    if (ex.hidden) return;
+    // «Mantieni al pareggio»: after every change the rent goes back to the break-even (at most twice per change).
+    if (keepBreakeven && locking < 2 && Number.isFinite(breakevenRent()) && Math.abs(val("cmpRent") - breakevenRent()) > 0.05) {
+      locking++;
+      rentToBreakeven();
+      return;
+    }
+    syncAll();
+    clearTimeout(recordTimer);
+    recordTimer = setTimeout(record, normalizing ? 0 : 500);
+  }
+
   function open() {
     sheetState = capture();
     scrollY = window.scrollY;
-    const card = $("wealthChart").closest(".card");
-    home = [[card, card.parentNode, card.nextSibling]];
-    $("exStage").append(card);
+    const chart = $("wealthChart").closest(".card");
+    home = [[chart, chart.parentNode, chart.nextSibling]];
+    $("exStage").append(chart);
     ex.hidden = false;
     document.body.classList.add("ex-on");
+    keepBreakeven = false;
+    history = [];
+    hIndex = -1;
     build();
+    record();
     sheetKpi = readKpis();
     controls.forEach((c) => c.open());
     syncAll();
@@ -5434,6 +5633,9 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
   }
   function close(save) {
     pending = null;
+    keepBreakeven = false;
+    clearTimeout(recordTimer);
+    recordTimer = 0;
     if (!save) restore(sheetState);
     for (const [n, parent, next] of home.slice().reverse()) parent.insertBefore(n, next);
     ex.hidden = true;
@@ -5446,17 +5648,16 @@ document.addEventListener('input',()=>queueMicrotask(refreshV29Layout));document
   const buildBeforeExplorer = build;
   build = function () {
     const result = buildBeforeExplorer.apply(this, arguments);
-    if (!ex.hidden) queueMicrotask(syncAll);
+    if (!ex.hidden) queueMicrotask(afterBuild);
     return result;
   };
   $("exOpen").addEventListener("click", open);
   $("exSave").addEventListener("click", () => close(true));
   $("exCancel").addEventListener("click", () => close(false));
-  $("exRevert").addEventListener("click", () => {
-    pending = null;
-    restore(sheetState);
-  });
-  window.explorerState = () => ({ open: !ex.hidden, changed: controls.filter((c) => c.changed()).length });
+  $("exUndo").addEventListener("click", () => step(-1));
+  $("exRedo").addEventListener("click", () => step(1));
+  $("exRevert").addEventListener("click", () => schedule(() => restore(sheetState)));
+  window.explorerState = () => ({ open: !ex.hidden, changed: controls.filter((c) => c.changed()).length, history: history.length, at: hIndex, keepBreakeven });
 })();
 </script><script>
 document.addEventListener('click',e=>{if(!e.target.closest('[data-sale-jump]'))return;document.getElementById('fiscalDetails').open=true;document.getElementById('saleSettings').scrollIntoView({behavior:'smooth',block:'start'});});
